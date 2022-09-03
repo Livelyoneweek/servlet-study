@@ -10,6 +10,7 @@ import java.io.IOException;
 @WebServlet(name = "helloServlet", urlPatterns = "/hello")
 public class HelloServlet extends HttpServlet {
 
+    // /hello 요청이 오면 아래 service 메소드가 실행 됌
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
